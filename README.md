@@ -186,8 +186,14 @@ Market Basket Analysis helps with demand forecasting. If a certain product is of
 
 By continuously monitoring and analyzing customer shopping data, we can identify new relationships and opportunities. Understanding customer behavior helps you continuously update our strategy.
 
+Thank you for reading.
+
+**Sources:**
+
+## Sources
+
+* [Market Basket Analysis: A Comprehensive Guide for Businesses](https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-on-market-basket-analysis/#What_Is_Market_Basket_Analysis?)
 
 
-Sources:
+This article provides a comprehensive overview of market basket analysis. It explains what market basket analysis is, how it is applied, and how it can be beneficial for businesses.
 
-[1]: "https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-on-market-basket-analysis/#What_Is_Market_Basket_Analysis?"
