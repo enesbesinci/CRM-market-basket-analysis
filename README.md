@@ -96,22 +96,29 @@ As you can see above, we have converted every single transaction row into boolea
 
 At this point, we should know some kind of terms about the algorithm and analysis.
 
+------------------------------------------------
+
 Support:
 
 Explanation: It measures how frequently a product or product group appears in total shopping baskets.
 
 Example: If the "BREAD" product is found in 20% of total shopping baskets, the support value for "BREAD" is 20%.
 
+------------------------------------------------
+
 Confidence:
 Explanation: It indicates the relationship between two products, specifying the probability of the second product being purchased when the first product is purchased.
 
 Example: If the probability of purchasing "COOKIES" when "MILK" is purchased is 30%, the confidence value is 30%.
 
+------------------------------------------------
+
 Lift:
 Explanation: It shows how much more likely the relationship between two products occurs compared to a random situation.
 
 Example: If the probability of purchasing "BISCUITS" when "TEA" is purchased is 2, the lift value is 2, indicating that this relationship occurs twice as much as in a random situation.
-These terms are crucia
+
+------------------------------------------------
 
 Yes, we can now use the a-priori algorithm to see how often each product is involved in transactions. We set the support value to 15%.
 
