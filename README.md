@@ -123,13 +123,43 @@ BREAD 0.3853 (38%) has a support value of 0.3853, meaning that this product alon
 
 BREAD is followed by BUTTER, COFFEE and COKE.
 
-We can see the support values for each product with this method. Now, using the association_rules() function, we will extract the associations of products purchased together from the product associations obtained with the Apriori algorithm. Let's run the code and see the results.
+We can see the support values for each product with this method. Now, using the association_rules() function, we will extract the associations of products purchased together from the product associations obtained with the Apriori algorithm.
+
+First, to evaluate the results, we chose "Confidence" as our main metric and set the minimum "Confidence" value to 0.15 (15%). As you can see in the table, we see associations with a confidence value greater than 0.15. Keep in mind that this is a synthetic data set, in real life problems the values will not be this high.
+
+Let's run the code and see the results.
 
 ![Screenshot 2023-12-08 173102](https://github.com/enesbesinci/CRM-market-basket-analysis/assets/110482608/b2a9cf94-72c8-465b-b930-032d6bb7edee)
 
 This table tells a lot of useful things for our retail business.
 
-Let's discover them.
+Let's discover them and interpret the first line.
+
+### Let's interpret the metrics in the table
+
+antecedents: Represents the previous items in shopping rules. In this example, it corresponds to the "BUTTER" product.
+
+consequents: Represents the subsequent items in shopping rules. In this case, it corresponds to the "BREAD" product.
+
+antecedent support: The support value for the previous item, indicating the probability of observing the "BUTTER" product alone, which is 0.3812.
+
+consequent support: The support value for the subsequent item, indicating the probability of observing the "BREAD" product alone, which is 0.3853.
+
+support: Represents the probability of observing both the previous and subsequent items together. In this case, the probability of observing "BUTTER" and "BREAD" products together is 0.1524.
+
+confidence: Indicates the probability of the subsequent item being purchased when the previous item is purchased. For example, when "BUTTER" is purchased, the probability of purchasing "BREAD" is 0.399790.
+
+lift: The lift value measures how many times the probability of observing both the antecedent and consequent items together increases compared to a situation where rules are randomly chosen. In this example, the lift value is 1.037607, meaning the probability of purchasing "BREAD" when "BUTTER" is purchased is 1.037607 times higher than when randomly selected.
+
+leverage: Expresses how many units the probability of observing both the antecedent and consequent items together increases compared to the expected probability. A positive value indicates that association rules are higher than randomly selected probabilities.
+
+conviction: Measures how much greater the probability of purchasing the antecedent item is when the consequent item is purchased compared to the randomly selected probability.
+
+zhangs_metric: Zhang's metric is used in the evaluation of association rules. Specifically, it includes lift and confidence values, and it is employed to assess the strength of a rule. In this example, the Zhang's metric value is 0.058572.
+
+Yes, you can interpret the other lines with the same logic.
+
+## STEP 4: Actions that can be taken when all these results are evaluated.
 
 ### Product Placement and Shelf Layout:
 
