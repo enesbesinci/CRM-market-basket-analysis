@@ -186,4 +186,6 @@ By continuously monitoring and analyzing customer shopping data, we can identify
 
 
 
+Sources:
 
+[1]: https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-on-market-basket-analysis/#What_Is_Market_Basket_Analysis?
