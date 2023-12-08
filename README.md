@@ -124,7 +124,7 @@ Yes, we can now use the a-priori algorithm to see how often each product is invo
 
 ![Screenshot 2023-12-08 170013](https://github.com/enesbesinci/CRM-market-basket-analysis/assets/110482608/b4e7f3ec-e348-42e5-a382-140ad4093dda)
 
-Let's interpret this results.
+Let's interpret these results.
 
 BREAD 0.3853 (38%) has a support value of 0.3853, meaning that this product alone was involved in 38% of all purchases. There are 10000 rows of transactions in our data set, each representing a different purchase. Also, there can only be one of each product in each transaction. This means that we sold a total of 3853 loaves of bread.
 
