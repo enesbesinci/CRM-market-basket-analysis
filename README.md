@@ -120,3 +120,33 @@ Yes, we can now use the a-priori algorithm to see how often each product is invo
 Let's interpret this results.
 
 BREAD 0.3853 (38%) has a support value of 0.3853, meaning that this product alone was involved in 38% of all purchases. There are 10000 rows of transactions in our data set, each representing a different purchase. Also, there can only be one of each product in each transaction. This means that we sold a total of 3853 loaves of bread.
+
+BREAD is followed by BUTTER, COFFEE and COKE.
+
+We can see the support values for each product with this method. Now, using the association_rules() function, we will extract the associations of products purchased together from the product associations obtained with the Apriori algorithm. Let's run the code and see the results.
+
+![Screenshot 2023-12-08 173102](https://github.com/enesbesinci/CRM-market-basket-analysis/assets/110482608/b2a9cf94-72c8-465b-b930-032d6bb7edee)
+
+This table tells a lot of useful things for our retail business.
+
+Let's discover them.
+
+### Product Placement and Shelf Layout:
+
+The analysis shows that there is a strong association between "BUTTER" and "BREAD", so displaying these products together or placing them side by side can encourage customers to shop.
+
+### Promotions and Discounts:
+
+For example, there is a strong association between "JAM" and "BREAD", we can offer these products together with a special discount or promotion. We can organize various promotions to encourage customers to buy a certain product.
+
+### Inventory Management:
+
+Market Basket Analysis helps with demand forecasting. If a certain product is often sold together with another product, we can optimize inventory management by taking this into account.
+
+### Data Collection and Analysis:
+
+By continuously monitoring and analyzing customer shopping data, we can identify new relationships and opportunities. Understanding customer behavior helps you continuously update our strategy.
+
+
+
+
