@@ -13,7 +13,7 @@ Let's start coding...
 
 ## STEP 1: Create a Dataset to use it.
 
-There is no many public datasets to use in this project. That's why in this project I will create a synthetic dataframe using the "random" module from Python. The reason I'm doing this is both to show how synthetic data is generated and to create custom data for this algorithm.
+There is no many publicly available datasets to use in this project. That's why in this project I will create a synthetic dataframe using the "random" module from Python. The reason I'm doing this is both to show how synthetic data is generated and to create custom data for this algorithm.
 
 First of all, in our data set, we will have these columns:
 
@@ -98,7 +98,7 @@ At this point, we should know some kind of terms about the algorithm and analysi
 
 ------------------------------------------------
 
-Support:
+### Support:
 
 Explanation: It measures how frequently a product or product group appears in total shopping baskets.
 
@@ -106,14 +106,16 @@ Example: If the "BREAD" product is found in 20% of total shopping baskets, the s
 
 ------------------------------------------------
 
-Confidence:
+### Confidence:
+
 Explanation: It indicates the relationship between two products, specifying the probability of the second product being purchased when the first product is purchased.
 
 Example: If the probability of purchasing "COOKIES" when "MILK" is purchased is 30%, the confidence value is 30%.
 
 ------------------------------------------------
 
-Lift:
+### Lift:
+
 Explanation: It shows how much more likely the relationship between two products occurs compared to a random situation.
 
 Example: If the probability of purchasing "BISCUITS" when "TEA" is purchased is 2, the lift value is 2, indicating that this relationship occurs twice as much as in a random situation.
@@ -188,4 +190,4 @@ By continuously monitoring and analyzing customer shopping data, we can identify
 
 Sources:
 
-[1]: https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-on-market-basket-analysis/#What_Is_Market_Basket_Analysis?
+[1]: "https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-on-market-basket-analysis/#What_Is_Market_Basket_Analysis?"
