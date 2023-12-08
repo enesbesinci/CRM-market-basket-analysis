@@ -13,7 +13,7 @@ Let's start coding...
 
 ## STEP 1: Create a Dataset to use it.
 
-There are many public datasets to use in this project. But in this project I will create a synthetic datafarame using the "random" module from Python.
+There is no many public datasets to use in this project. That's why in this project I will create a synthetic dataframe using the "random" module from Python. The reason I'm doing this is both to show how synthetic data is generated and to create custom data for this algorithm.
 
 First of all, in our data set, we will have these columns:
 
@@ -78,7 +78,7 @@ Let's take a look at the variables
 
 ## STEP 2: Prepare the data for analysis.
 
-At this point, we will prepare the data for analysis. First of all, as you can see in the Items column, there are commas between each product. We should seperate each product to use in the A-priori Method. 
+At this point, we will prepare the data for analysis. First of all, as you can see in the Items column, there are commas between each product. We should seperate each product to use in the A-priori Method. This algorithm uses data in boolean format to understand whether an item is present in a shopping cart or not. That is, an item is marked as "True" if it is in the cart and "False" if it is not. 
 
 ![Screenshot 2023-12-08 145409](https://github.com/enesbesinci/CRM-market-basket-analysis/assets/110482608/b7022138-1aa4-4b24-82d6-bf076afc445c)
 
