@@ -1,6 +1,6 @@
 # Market Basket Analysis
 
-Hello everyone, in this project we will analyze product associations in customer shopping carts using synthetic data to develop sales strategies for retail businesses and recommend some actions. The analysis is performed using Apriori algorithm to understand customer behavior, improve recommendation systems and provide valuable information for various strategies such as promotions, campaigns, etc. The project was implemented using Python programming language and related libraries."
+Hello everyone, in this project we will analyze product associations in customer shopping carts using synthetic data to develop sales strategies for retail businesses and recommend some actions. The analysis is performed using Apriori algorithm to understand customer behavior, improve recommendation systems and provide valuable information for various strategies such as promotions, campaigns, etc. The project was implemented using Python programming language and related libraries.
 
 ![1_DHfQvlMVBaJCHpYmj1kmCw](https://github.com/enesbesinci/CRM-market-basket-analysis/assets/110482608/698a1da4-ff40-4d6d-9bc7-0ed4b4e6f925)
 
